@@ -1,0 +1,11 @@
+{
+  "name": "jai-react",
+  "version": "0.0.2",
+  "description": "reacttraining2.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "make TEST"
+  }
+}
