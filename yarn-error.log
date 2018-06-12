@@ -1,0 +1,47 @@
+Arguments: 
+  D:\Progs\NodeJS\node.exe C:\Users\jai.niranjan\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js publish
+
+PATH: 
+  C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;D:\Progs\NodeJS\;C:\Program Files\Java\jdk1.8.0_141\bin;C:\Program Files\Java\jre1.8.0_151;D:\Progs\apache-ant-1.10.1\bin;D:\Progs\apache-maven-3.5.0\bin;C:\mingw\bin;C:\Ruby24-x64\bin;C:\Users\jai.niranjan\AppData\Local\Microsoft\WindowsApps;C:\Users\jai.niranjan\AppData\Roaming\npm;C:\Program Files\Microsoft VS Code\bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  8.9.1
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "jai-react",
+    "version": "0.0.2",
+    "description": "reacttraining2.0",
+    "main": "index.js",
+    "license": "MIT",
+    "private": false,
+    "scripts": {
+      "dev": "make dev",
+      "test": "make TEST"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/jai-react: You cannot publish over the previously published versions: 0.0.2.
+      at Request.params.callback [as _callback] (C:\Users\jai.niranjan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:62098:18)
+      at Request.self.callback (C:\Users\jai.niranjan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:123085:22)
+      at emitTwo (events.js:126:13)
+      at Request.emit (events.js:214:7)
+      at Request.<anonymous> (C:\Users\jai.niranjan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:124068:10)
+      at emitOne (events.js:116:13)
+      at Request.emit (events.js:211:7)
+      at Gunzip.<anonymous> (C:\Users\jai.niranjan\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:123988:12)
+      at Object.onceWrapper (events.js:313:30)
+      at emitNone (events.js:111:20)

@@ -1,11 +1,16 @@
 {
   "name": "jai-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "reacttraining2.0",
   "main": "index.js",
   "license": "MIT",
   "private": false,
   "scripts": {
+    "dev": "make dev",
     "test": "make TEST"
+  },
+  "dependencies": {
+    "@types/express": "4.16.0",
+    "express": "4.16.3"
   }
 }
